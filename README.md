@@ -9,9 +9,11 @@ A lein2 plugin for working with maven poms.
 ```
 ## Usage
 
-To generate a project.clj from a pom, lein2 mvn in the directory with the pom file.
+To generate a project.clj from a pom, lein2 mvn in the directory with the pom
+file.
 
-To use maven based project checkouts, add
+To use maven based project checkouts, add the following middleware to your
+`:user` profile in `~/.lein/profiles.clj`.
 
 ```clojure
 :middleware [leiningen.mvn/maven-checkouts]
