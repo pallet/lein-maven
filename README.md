@@ -1,11 +1,11 @@
-# lein-mvn
+# lein-maven
 
 A lein2 plugin for working with maven poms.
 
 ## Install
 
 ```clojure
-:plugins [[lein-mvn "0.1.0-SNAPSHOT"]]
+:plugins [[lein-maven "0.1.0-SNAPSHOT"]]
 ```
 ## Usage
 
