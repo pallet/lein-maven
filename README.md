@@ -19,6 +19,11 @@ To use maven based project checkouts, add the following middleware to your
 :middleware [leiningen.mvn/maven-checkouts]
 ```
 
+## Other lein plugins for working with maven
+
+- [lein-nevam](https://github.com/thickey/lein-nevam)
+- [lein-mvn](https://github.com/fabiokung/lein-mvn)
+
 ## License
 
 Copyright © 2012 Hugo Duncan
