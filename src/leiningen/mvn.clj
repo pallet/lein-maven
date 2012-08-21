@@ -17,7 +17,7 @@
 
 (defn- read-pom [file]
   (eval-in-project
-   {:dependencies [['clj-mvn "0.1.0-SNAPSHOT"]]
+   {:dependencies [['clj-mvn "0.1.0"]]
     :eval-in :myclassloader}
    `(do
       (require 'clj-mvn.project)

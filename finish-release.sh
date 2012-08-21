@@ -17,7 +17,11 @@ echo -n "commiting project.clj, release notes and readme.  enter to continue:" \
            clj-mvn/project.clj src/leiningen/mvn.clj \
 && git commit -m "Updated project.clj, release notes and readme for $version" \
 && echo -n "Peform release.  enter to continue:" && read x \
+&& cd clj-mvn \
 && lein2 test \
-&& lein2 deploy \
+&& lein2 deploy clojars \
+&& cd .. \
+&& lein2 test \
+&& lein2 deploy clojars \
 && git flow release finish $version \
 && echo "Now push to github. Don't forget the tags!"
