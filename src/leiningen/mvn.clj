@@ -28,12 +28,12 @@
   "Read a maven pom"
   [project & args]
   (let [p (read-pom "pom.xml")
-        _ (pprint p)
         p (list 'defproject (symbol (:group p) (:name p)) (:version p)
                 :description (:description p)
                 :source-paths (vec (:source-paths p))
                 :test-paths (vec (:test-paths p)))]
-    (pprint p)))
+    (pprint p)
+    (flush)))
 
 (defn- add-checkout
   [project pom]
