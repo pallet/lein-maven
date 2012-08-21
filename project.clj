@@ -1,4 +1,4 @@
-(defproject lein-maven "0.1.0-SNAPSHOT"
+(defproject lein-maven "0.1.0"
   :description "Maven pom reader"
   :url "https://github.com/pallet/lein-maven"
   :license {:name "Eclipse Public License"
