@@ -5,7 +5,7 @@ A lein2 plugin for working with maven poms.
 ## Install
 
 ```clojure
-:plugins [[lein-maven "0.1.0-SNAPSHOT"]]
+:plugins [[lein-maven "0.1.0"]]
 ```
 ## Usage
 

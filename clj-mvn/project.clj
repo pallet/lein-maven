@@ -1,4 +1,4 @@
-(defproject clj-mvn "0.1.0-SNAPSHOT"
+(defproject clj-mvn "0.1.0"
   :description "Maven pom reader for clojure"
   :url "https://github.com/pallet/lein-maven"
   :license {:name "Eclipse Public License"
